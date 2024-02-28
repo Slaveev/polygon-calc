@@ -20,41 +20,13 @@ The Square class should be able to access the Rectangle class methods but should
 Additionally, the set_width and set_height methods on the Square class should set both the width and height.
 
 Usage example
-rect = shape_calculator.Rectangle(10, 5)
-print(rect.get_area())
-rect.set_height(3)
-print(rect.get_perimeter())
-print(rect)
-print(rect.get_picture())
+![Screenshot 2024-02-28 205519](https://github.com/Slaveev/polygon-calc/assets/114510055/ee36fba3-d97c-49d0-9b6d-9fcf54f0cc07)
 
-sq = shape_calculator.Square(9)
-print(sq.get_area())
-sq.set_side(4)
-print(sq.get_diagonal())
-print(sq)
-print(sq.get_picture())
 
-rect.set_height(8)
-rect.set_width(16)
-print(rect.get_amount_inside(sq))
 That code should return:
 
-50
-26
-Rectangle(width=10, height=3)
-**********
-**********
-**********
+![Screenshot 2024-02-28 205559](https://github.com/Slaveev/polygon-calc/assets/114510055/e719c2bb-2140-4021-998e-44e1137fea40)
 
-81
-5.656854249492381
-Square(side=4)
-****
-****
-****
-****
-
-8
 The unit tests for this project are in test_module.py.
 
 # Development
